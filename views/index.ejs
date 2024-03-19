@@ -15,5 +15,11 @@
       />
       <button id="addButton" type="submit">Adicionar</button>
     </form>
+
+    <ul>
+      <% tasksList.forEach((task) => { %>
+      <li><%= task.task %> | <%= task.date.toLocaleDateString('pt-BR') %></li>
+      <% }) %>
+    </ul>
   </body>
 </html>
