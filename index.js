@@ -23,5 +23,5 @@ app.listen(port, () =>
 const PORT = process.env.PORT || 5003;
 
 app.listen(PORT, () => {
-  console.log(`servidor rodando na URL http://${HOSTNAME}:${PORT}`);
+  console.log(`servidor rodando na URL http://myApp:${PORT}`);
 });
