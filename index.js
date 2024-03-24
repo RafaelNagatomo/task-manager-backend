@@ -10,7 +10,7 @@ app.use(express.json());
 
 connectToDb();
 
-app.use("/", routes);
+// app.use("/", routes);
 
 /* 
 const port = 3001;
